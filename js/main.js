@@ -7,6 +7,8 @@ var LoginForm = document.forms.login
 
         if (username.length > 4) {
           alert("Eres Changolion! (>_<)")
+        } else {
+          alert("mínimo cuatro caracteres")
         }
         console.log(typeof username.length);
 })
